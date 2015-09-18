@@ -5,7 +5,8 @@
   "main": "run.js",
   "dependencies": {
     "express": "^4.13.3",
-    "marko": "^2.7.11"
+    "marko": "^2.7.11",
+    "marko-sample-custom-tags": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
