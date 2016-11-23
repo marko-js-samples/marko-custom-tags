@@ -14,5 +14,15 @@
         </h2>
         <sample-custom-tags-say-hello name="Jane"/>
         <sample-custom-tags-foo/>
+        <h2>
+            The custom tag below illustrates how to implement a tag that
+            wraps content:
+        </h2>
+        <app-render-body classes=['foo', 'bar']>
+          <p.baz>
+            This <code>p</code> element will be included in the rendering.
+            Notice that the <code>baz</code> class gets applied.
+          </p>
+        </app-render-body>
     </body>
 </html>
